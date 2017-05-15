@@ -62,10 +62,10 @@ public class Customer implements Comparable<Customer> {
     
     @Override
     public int compareTo(Customer customer) {
-        if (this.total < customer.total) {
+        if (this.total > customer.total) {
             return -1;
         }
-        if (this.total > customer.total) {
+        if (this.total < customer.total) {
             return 1;
         }
         return 0;

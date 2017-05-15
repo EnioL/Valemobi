@@ -124,12 +124,10 @@ public class CustomerDAO {
                 customers.add(cus);
                 
             }
-            //List<Customer> lista = new ArrayList<Customer>();
-            //System.out.println("Lista:"+customers.get(0).id+customers.get(1).id );
+            
             
             Collections.sort(customers);
-            //Collections.sort(customers.get(0).total);
-            //Collections.<Customer>sort(customers);
+            
             
             rs.close();            
         }  finally {
